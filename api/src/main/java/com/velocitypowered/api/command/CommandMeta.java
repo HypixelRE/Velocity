@@ -8,8 +8,9 @@
 package com.velocitypowered.api.command;
 
 import com.mojang.brigadier.tree.CommandNode;
-import java.util.Collection;
 import org.checkerframework.checker.nullness.qual.Nullable;
+
+import java.util.Collection;
 
 /**
  * Contains metadata for a {@link Command}.

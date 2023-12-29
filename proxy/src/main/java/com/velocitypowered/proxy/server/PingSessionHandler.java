@@ -28,6 +28,7 @@ import com.velocitypowered.proxy.protocol.packet.Handshake;
 import com.velocitypowered.proxy.protocol.packet.StatusRequest;
 import com.velocitypowered.proxy.protocol.packet.StatusResponse;
 import io.netty.channel.EventLoop;
+
 import java.io.IOException;
 import java.util.concurrent.CompletableFuture;
 

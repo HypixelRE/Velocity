@@ -7,12 +7,13 @@
 
 package com.velocitypowered.api.event.player;
 
-import static com.google.common.base.Preconditions.checkNotNull;
-
 import com.velocitypowered.api.event.annotation.AwaitingEvent;
 import com.velocitypowered.api.proxy.Player;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * This event is fired after a tab complete response is sent by the remote server, for clients on

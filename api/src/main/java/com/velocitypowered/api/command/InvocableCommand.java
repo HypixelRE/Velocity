@@ -8,6 +8,7 @@
 package com.velocitypowered.api.command;
 
 import com.google.common.collect.ImmutableList;
+
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 

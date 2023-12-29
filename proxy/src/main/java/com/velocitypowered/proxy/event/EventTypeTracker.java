@@ -19,6 +19,7 @@ package com.velocitypowered.proxy.event;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.reflect.TypeToken;
+
 import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;

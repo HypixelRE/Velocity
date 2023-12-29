@@ -7,11 +7,11 @@
 
 package com.velocitypowered.api.proxy.server;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.google.common.collect.ImmutableList;
 import com.velocitypowered.api.proxy.server.QueryResponse.PluginInformation;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class QueryResponseTest {
 

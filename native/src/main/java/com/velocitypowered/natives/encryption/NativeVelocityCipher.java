@@ -20,8 +20,9 @@ package com.velocitypowered.natives.encryption;
 import com.google.common.base.Preconditions;
 import com.velocitypowered.natives.util.BufferPreference;
 import io.netty.buffer.ByteBuf;
-import java.security.GeneralSecurityException;
+
 import javax.crypto.SecretKey;
+import java.security.GeneralSecurityException;
 
 /**
  * Implements AES-CFB8 encryption/decryption using a native library.

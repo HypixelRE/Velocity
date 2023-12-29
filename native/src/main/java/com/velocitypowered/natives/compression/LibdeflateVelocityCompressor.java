@@ -20,6 +20,7 @@ package com.velocitypowered.natives.compression;
 import com.google.common.base.Preconditions;
 import com.velocitypowered.natives.util.BufferPreference;
 import io.netty.buffer.ByteBuf;
+
 import java.util.zip.DataFormatException;
 
 /**

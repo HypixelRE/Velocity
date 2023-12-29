@@ -21,12 +21,13 @@ import com.google.common.collect.ImmutableList;
 import com.velocitypowered.api.plugin.PluginContainer;
 import com.velocitypowered.api.plugin.PluginDescription;
 import com.velocitypowered.api.plugin.PluginManager;
+import org.checkerframework.checker.nullness.qual.NonNull;
+
 import java.nio.file.Path;
 import java.util.Collection;
 import java.util.Optional;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ForkJoinPool;
-import org.checkerframework.checker.nullness.qual.NonNull;
 
 /**
  * A fake plugin manager.

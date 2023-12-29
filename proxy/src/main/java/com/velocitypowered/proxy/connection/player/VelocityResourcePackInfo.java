@@ -19,10 +19,11 @@ package com.velocitypowered.proxy.connection.player;
 
 import com.google.common.base.Preconditions;
 import com.velocitypowered.api.proxy.player.ResourcePackInfo;
-import java.nio.charset.StandardCharsets;
-import java.util.UUID;
 import net.kyori.adventure.text.Component;
 import org.checkerframework.checker.nullness.qual.Nullable;
+
+import java.nio.charset.StandardCharsets;
+import java.util.UUID;
 
 /**
  * Implements {@link ResourcePackInfo}.

@@ -17,9 +17,6 @@
 
 package com.velocitypowered.proxy.protocol.packet.chat.keyed;
 
-import static com.velocitypowered.proxy.protocol.packet.chat.keyed.KeyedPlayerChat.INVALID_PREVIOUS_MESSAGES;
-import static com.velocitypowered.proxy.protocol.packet.chat.keyed.KeyedPlayerChat.MAXIMUM_PREVIOUS_MESSAGE_COUNT;
-
 import com.google.common.collect.ImmutableMap;
 import com.velocitypowered.api.network.ProtocolVersion;
 import com.velocitypowered.proxy.connection.MinecraftSessionHandler;
@@ -29,11 +26,15 @@ import com.velocitypowered.proxy.protocol.MinecraftPacket;
 import com.velocitypowered.proxy.protocol.ProtocolUtils;
 import com.velocitypowered.proxy.util.except.QuietDecoderException;
 import io.netty.buffer.ByteBuf;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
 import java.time.Instant;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import org.checkerframework.checker.nullness.qual.Nullable;
+
+import static com.velocitypowered.proxy.protocol.packet.chat.keyed.KeyedPlayerChat.INVALID_PREVIOUS_MESSAGES;
+import static com.velocitypowered.proxy.protocol.packet.chat.keyed.KeyedPlayerChat.MAXIMUM_PREVIOUS_MESSAGE_COUNT;
 
 public class KeyedPlayerCommand implements MinecraftPacket {
 

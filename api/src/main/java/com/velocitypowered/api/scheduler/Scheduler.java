@@ -7,12 +7,13 @@
 
 package com.velocitypowered.api.scheduler;
 
+import org.checkerframework.common.value.qual.IntRange;
+import org.jetbrains.annotations.NotNull;
+
 import java.time.Duration;
 import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
-import org.checkerframework.common.value.qual.IntRange;
-import org.jetbrains.annotations.NotNull;
 
 /**
  * Represents a scheduler to execute tasks on the proxy.

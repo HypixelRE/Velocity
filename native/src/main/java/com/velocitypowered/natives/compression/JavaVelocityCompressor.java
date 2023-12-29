@@ -17,16 +17,17 @@
 
 package com.velocitypowered.natives.compression;
 
-import static com.google.common.base.Preconditions.checkArgument;
-import static com.google.common.base.Preconditions.checkState;
-import static com.velocitypowered.natives.compression.CompressorUtils.ZLIB_BUFFER_SIZE;
-
 import com.velocitypowered.natives.util.BufferPreference;
 import io.netty.buffer.ByteBuf;
+
 import java.nio.ByteBuffer;
 import java.util.zip.DataFormatException;
 import java.util.zip.Deflater;
 import java.util.zip.Inflater;
+
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.base.Preconditions.checkState;
+import static com.velocitypowered.natives.compression.CompressorUtils.ZLIB_BUFFER_SIZE;
 
 /**
  * Implements deflate compression by wrapping {@link Deflater} and {@link Inflater}.

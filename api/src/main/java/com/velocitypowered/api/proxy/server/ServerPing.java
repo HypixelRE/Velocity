@@ -12,13 +12,9 @@ import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableList;
 import com.velocitypowered.api.util.Favicon;
 import com.velocitypowered.api.util.ModInfo;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.UUID;
 import org.checkerframework.checker.nullness.qual.Nullable;
+
+import java.util.*;
 
 /**
  * Represents a 1.7 and above server list ping response. This class is immutable.

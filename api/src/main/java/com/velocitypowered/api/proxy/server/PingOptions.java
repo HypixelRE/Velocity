@@ -7,14 +7,15 @@
 
 package com.velocitypowered.api.proxy.server;
 
-import static com.google.common.base.Preconditions.checkNotNull;
-
 import com.velocitypowered.api.network.ProtocolVersion;
+import net.kyori.adventure.builder.AbstractBuilder;
+import org.jetbrains.annotations.NotNull;
+
 import java.time.Duration;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
-import net.kyori.adventure.builder.AbstractBuilder;
-import org.jetbrains.annotations.NotNull;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * Contains the parameters used to ping a {@link RegisteredServer}.

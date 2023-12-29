@@ -9,6 +9,7 @@ package com.velocitypowered.api.proxy.config;
 
 import com.velocitypowered.api.proxy.ProxyServer;
 import com.velocitypowered.api.util.Favicon;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;

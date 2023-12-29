@@ -8,6 +8,7 @@
 package com.velocitypowered.api.proxy;
 
 import com.velocitypowered.api.network.ProtocolVersion;
+
 import java.net.InetSocketAddress;
 import java.util.Optional;
 

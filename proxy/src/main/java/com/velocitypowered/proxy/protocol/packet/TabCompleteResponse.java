@@ -17,8 +17,6 @@
 
 package com.velocitypowered.proxy.protocol.packet;
 
-import static com.velocitypowered.api.network.ProtocolVersion.MINECRAFT_1_13;
-
 import com.google.common.base.MoreObjects;
 import com.velocitypowered.api.network.ProtocolVersion;
 import com.velocitypowered.proxy.connection.MinecraftSessionHandler;
@@ -26,9 +24,12 @@ import com.velocitypowered.proxy.protocol.MinecraftPacket;
 import com.velocitypowered.proxy.protocol.ProtocolUtils;
 import com.velocitypowered.proxy.protocol.packet.chat.ComponentHolder;
 import io.netty.buffer.ByteBuf;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
 import java.util.ArrayList;
 import java.util.List;
-import org.checkerframework.checker.nullness.qual.Nullable;
+
+import static com.velocitypowered.api.network.ProtocolVersion.MINECRAFT_1_13;
 
 public class TabCompleteResponse implements MinecraftPacket {
 

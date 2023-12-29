@@ -17,22 +17,19 @@
 
 package com.velocitypowered.proxy.event;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import com.google.common.reflect.TypeToken;
-import com.velocitypowered.api.event.AwaitingEventExecutor;
-import com.velocitypowered.api.event.Continuation;
-import com.velocitypowered.api.event.EventTask;
-import com.velocitypowered.api.event.PostOrder;
-import com.velocitypowered.api.event.Subscribe;
+import com.velocitypowered.api.event.*;
 import com.velocitypowered.proxy.testutil.FakePluginManager;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
+
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Event firing tests.

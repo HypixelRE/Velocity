@@ -9,9 +9,10 @@ package com.velocitypowered.api.proxy.server;
 
 import com.velocitypowered.api.proxy.Player;
 import com.velocitypowered.api.proxy.messages.ChannelMessageSink;
+import net.kyori.adventure.audience.Audience;
+
 import java.util.Collection;
 import java.util.concurrent.CompletableFuture;
-import net.kyori.adventure.audience.Audience;
 
 /**
  * Represents a server that has been registered with the proxy. The {@code Audience} associated with

@@ -7,15 +7,16 @@
 
 package com.velocitypowered.api.proxy.server;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.google.common.collect.ImmutableList;
 import com.velocitypowered.api.proxy.server.ServerPing.Players;
 import com.velocitypowered.api.proxy.server.ServerPing.SamplePlayer;
 import com.velocitypowered.api.proxy.server.ServerPing.Version;
-import java.util.UUID;
 import net.kyori.adventure.text.Component;
 import org.junit.jupiter.api.Test;
+
+import java.util.UUID;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ServerPingTest {
 

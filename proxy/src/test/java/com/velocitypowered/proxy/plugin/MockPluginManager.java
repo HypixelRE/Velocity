@@ -20,6 +20,7 @@ package com.velocitypowered.proxy.plugin;
 import com.google.common.collect.ImmutableList;
 import com.velocitypowered.api.plugin.PluginContainer;
 import com.velocitypowered.api.plugin.PluginManager;
+
 import java.nio.file.Path;
 import java.util.Collection;
 import java.util.Optional;

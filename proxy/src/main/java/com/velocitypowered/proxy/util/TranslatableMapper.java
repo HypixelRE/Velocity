@@ -17,9 +17,6 @@
 
 package com.velocitypowered.proxy.util;
 
-import java.util.Locale;
-import java.util.function.BiConsumer;
-import java.util.function.Consumer;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TranslatableComponent;
 import net.kyori.adventure.text.flattener.ComponentFlattener;
@@ -27,6 +24,10 @@ import net.kyori.adventure.translation.GlobalTranslator;
 import net.kyori.adventure.translation.TranslationRegistry;
 import net.kyori.adventure.translation.Translator;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Locale;
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
 
 
 /**

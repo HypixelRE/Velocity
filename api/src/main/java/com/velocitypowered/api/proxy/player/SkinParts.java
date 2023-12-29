@@ -7,8 +7,9 @@
 
 package com.velocitypowered.api.proxy.player;
 
-import java.util.Objects;
 import org.checkerframework.checker.nullness.qual.Nullable;
+
+import java.util.Objects;
 
 /**
  * Represents what, if any, extended parts of the skin this player has.

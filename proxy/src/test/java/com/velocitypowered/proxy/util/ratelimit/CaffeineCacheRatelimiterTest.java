@@ -17,14 +17,15 @@
 
 package com.velocitypowered.proxy.util.ratelimit;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import com.github.benmanes.caffeine.cache.Ticker;
+import org.junit.jupiter.api.Test;
+
 import java.net.InetAddress;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
-import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class CaffeineCacheRatelimiterTest {
 

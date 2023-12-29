@@ -17,10 +17,11 @@
 
 package com.velocitypowered.natives.util;
 
+import org.checkerframework.checker.nullness.qual.Nullable;
+
 import java.util.List;
 import java.util.function.BooleanSupplier;
 import java.util.function.Supplier;
-import org.checkerframework.checker.nullness.qual.Nullable;
 
 /**
  * A loader for native code.

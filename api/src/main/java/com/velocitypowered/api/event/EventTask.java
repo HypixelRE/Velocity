@@ -7,10 +7,10 @@
 
 package com.velocitypowered.api.event;
 
-import static java.util.Objects.requireNonNull;
-
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
+
+import static java.util.Objects.requireNonNull;
 
 /**
  * Represents a task that can be returned by a {@link EventHandler} which allows event handling to

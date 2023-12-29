@@ -19,6 +19,7 @@ package com.velocitypowered.natives.util;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
+
 import java.util.function.BooleanSupplier;
 
 /**

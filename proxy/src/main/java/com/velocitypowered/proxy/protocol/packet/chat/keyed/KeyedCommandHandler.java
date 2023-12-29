@@ -23,8 +23,9 @@ import com.velocitypowered.proxy.VelocityServer;
 import com.velocitypowered.proxy.connection.client.ConnectedPlayer;
 import com.velocitypowered.proxy.protocol.packet.chat.CommandHandler;
 import com.velocitypowered.proxy.protocol.packet.chat.builder.ChatBuilderV2;
-import java.util.concurrent.CompletableFuture;
 import net.kyori.adventure.text.Component;
+
+import java.util.concurrent.CompletableFuture;
 
 public class KeyedCommandHandler implements CommandHandler<KeyedPlayerCommand> {
 

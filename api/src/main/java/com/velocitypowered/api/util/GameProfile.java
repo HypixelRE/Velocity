@@ -9,6 +9,7 @@ package com.velocitypowered.api.util;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableList;
+
 import java.util.List;
 import java.util.UUID;
 

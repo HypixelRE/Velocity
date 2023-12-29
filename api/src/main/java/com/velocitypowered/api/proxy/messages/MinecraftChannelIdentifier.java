@@ -7,13 +7,14 @@
 
 package com.velocitypowered.api.proxy.messages;
 
-import static com.google.common.base.Preconditions.checkArgument;
-
 import com.google.common.base.Strings;
-import java.util.Objects;
-import java.util.regex.Pattern;
 import net.kyori.adventure.key.Key;
 import org.checkerframework.checker.nullness.qual.Nullable;
+
+import java.util.Objects;
+import java.util.regex.Pattern;
+
+import static com.google.common.base.Preconditions.checkArgument;
 
 /**
  * Represents a Minecraft 1.13+ channel identifier. This class is immutable and safe for

@@ -17,13 +17,6 @@
 
 package com.velocitypowered.proxy.command.brigadier;
 
-import static com.velocitypowered.proxy.command.brigadier.VelocityArgumentBuilder.velocityArgument;
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertSame;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.context.CommandContextBuilder;
@@ -34,6 +27,9 @@ import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static com.velocitypowered.proxy.command.brigadier.VelocityArgumentBuilder.velocityArgument;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Tests for {@link VelocityArgumentCommandNode}.

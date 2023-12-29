@@ -9,11 +9,7 @@ package com.velocitypowered.api.plugin.ap;
 
 import com.google.gson.Gson;
 import com.velocitypowered.api.plugin.Plugin;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.Writer;
-import java.util.Objects;
-import java.util.Set;
+
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.RoundEnvironment;
@@ -26,6 +22,11 @@ import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 import javax.tools.FileObject;
 import javax.tools.StandardLocation;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.util.Objects;
+import java.util.Set;
 
 /**
  * Annotation processor for Velocity.

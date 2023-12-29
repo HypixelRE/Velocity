@@ -17,18 +17,19 @@
 
 package com.velocitypowered.proxy.command;
 
-import static com.mojang.brigadier.arguments.StringArgumentType.word;
-import static org.junit.jupiter.api.Assertions.fail;
-
 import com.google.common.collect.ImmutableList;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.builder.RequiredArgumentBuilder;
 import com.velocitypowered.api.command.Command;
 import com.velocitypowered.api.command.CommandSource;
 import com.velocitypowered.api.command.RawCommand;
+import org.junit.jupiter.api.Test;
+
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
-import org.junit.jupiter.api.Test;
+
+import static com.mojang.brigadier.arguments.StringArgumentType.word;
+import static org.junit.jupiter.api.Assertions.fail;
 
 /**
  * Tests {@link Command} implementation-independent suggestion methods of

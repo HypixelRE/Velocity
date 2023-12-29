@@ -8,6 +8,7 @@
 package com.velocitypowered.api.proxy.player;
 
 import com.velocitypowered.api.proxy.crypto.KeyIdentifiable;
+
 import java.util.UUID;
 
 /**

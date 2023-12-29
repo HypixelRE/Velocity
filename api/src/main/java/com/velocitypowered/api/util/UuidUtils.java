@@ -8,6 +8,7 @@
 package com.velocitypowered.api.util;
 
 import com.google.common.base.Preconditions;
+
 import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 import java.util.UUID;

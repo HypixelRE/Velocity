@@ -19,6 +19,7 @@ package com.velocitypowered.proxy.protocol.packet.chat;
 
 import com.velocitypowered.proxy.protocol.ProtocolUtils;
 import io.netty.buffer.ByteBuf;
+
 import java.util.Arrays;
 import java.util.BitSet;
 

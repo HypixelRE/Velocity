@@ -8,9 +8,10 @@
 package com.velocitypowered.api.command;
 
 import com.velocitypowered.api.event.command.CommandExecuteEvent;
+import org.checkerframework.checker.nullness.qual.Nullable;
+
 import java.util.Collection;
 import java.util.concurrent.CompletableFuture;
-import org.checkerframework.checker.nullness.qual.Nullable;
 
 /**
  * Handles the registration and execution of commands.

@@ -26,8 +26,9 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelPromise;
 import io.netty.util.ReferenceCountUtil;
 import io.netty.util.internal.PlatformDependent;
-import java.util.Queue;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.Queue;
 
 /**
  * Queues up any pending PLAY packets while the client is in the CONFIG state.

@@ -17,8 +17,8 @@
 
 package com.velocitypowered.natives.encryption;
 
-import java.security.GeneralSecurityException;
 import javax.crypto.SecretKey;
+import java.security.GeneralSecurityException;
 
 /**
  * A factory interface for {@link VelocityCipher}.

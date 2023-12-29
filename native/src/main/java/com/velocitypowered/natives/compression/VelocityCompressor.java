@@ -20,6 +20,7 @@ package com.velocitypowered.natives.compression;
 import com.velocitypowered.natives.Disposable;
 import com.velocitypowered.natives.Native;
 import io.netty.buffer.ByteBuf;
+
 import java.util.zip.DataFormatException;
 
 /**

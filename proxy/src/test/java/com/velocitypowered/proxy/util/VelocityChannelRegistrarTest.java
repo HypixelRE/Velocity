@@ -17,12 +17,12 @@
 
 package com.velocitypowered.proxy.util;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import com.google.common.collect.ImmutableSet;
 import com.velocitypowered.api.proxy.messages.LegacyChannelIdentifier;
 import com.velocitypowered.api.proxy.messages.MinecraftChannelIdentifier;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class VelocityChannelRegistrarTest {
 
