@@ -86,9 +86,7 @@ import java.io.InputStream;
 import java.net.InetSocketAddress;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.security.AccessController;
 import java.security.KeyPair;
-import java.security.PrivilegedAction;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -214,7 +212,6 @@ public class VelocityServer implements ProxyServer, ForwardingAudience {
 
     // Initialize commands first
     commandManager.register("velocity", new VelocityCommand(this));
-//    commandManager.register("server", new ServerCommand(this));
     commandManager.register("shutdown", ShutdownCommand.command(this),
         "end", "stop");
     new GlistCommand(this).register();
@@ -536,16 +533,16 @@ public class VelocityServer implements ProxyServer, ForwardingAudience {
 
       shutdown = true;
 
-      if (explicitExit) {
-        AccessController.doPrivileged(new PrivilegedAction<Void>() {
-          @Override
-          @SuppressFBWarnings("DM_EXIT")
-          public Void run() {
-            System.exit(0);
-            return null;
-          }
-        });
-      }
+//      if (explicitExit) {
+//        AccessController.doPrivileged(new PrivilegedAction<Void>() {
+//          @Override
+//          @SuppressFBWarnings("DM_EXIT")
+//          public Void run() {
+//            System.exit(0);
+//            return null;
+//          }
+//        });
+//      }
     };
 
     if (explicitExit) {
